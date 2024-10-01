@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap&#39');
+body{
+    background: linear-gradient(90deg, #131E26 60%, #223947, #325A6F);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Boogaloo", sans-serif;
+}
+
+.menu{
+    background: linear-gradient(90deg, #131E26 60%, #223947, #325A6F);
+    width: 100%;
+    max-width: 100%;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    font-size: 1.0rem;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.logo img{
+    width: 150px;
+    display: flex;
+}
+
+ul{
+    padding: 10px;
+    display: flex;
+    font-size: 1rem;
+    color: #fff;
+    gap: 50px;
+    text-decoration: none;
+    list-style: none;
+}
+.heroSection{
+    width: 100%;
+    height: 100%;
+  
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mensagem{
+    color: white;
+    display: flex;
+    height: inherit;
+    width: 40%;
+    font-size: 4rem;
+   margin-left: 40px;
+   flex-wrap: wrap;
+}
+.mensagem h3{
+    font-size: 0.5rem;
+    color: white;
+    font-family: "Boogaloo", sans-serif;;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+button{
+    display: flex;
+    width: 200px;
+    background: linear-gradient(90deg, #349054, #57c3f0);
+    color: #fff;
+    padding-inline: 2px;
+    padding-block: 15px;
+    
+    justify-content: center;
+    border-radius: 10px;
+    gap: 5px;
+    
+}
+
+.mensagem h1{
+    font-size: 3.0rem;
+    color: white;
+    font-family: "Boogaloo", sans-serif;;
+}
